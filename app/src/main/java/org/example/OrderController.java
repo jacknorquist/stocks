@@ -9,7 +9,7 @@ public class OrderController {
     @GetMapping("/order")
 
     public User getUser(){
-        
+        alpacaurl.post(order info..)
     }
     public String hello() {
         return "Hello, World!";
