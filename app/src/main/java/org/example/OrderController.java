@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     @GetMapping("/order")
+
+    public User getUser(){
+        
+    }
     public String hello() {
         return "Hello, World!";
     }
