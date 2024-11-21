@@ -14,4 +14,11 @@ public class OrderController {
     public String hello() {
         return "Hello, World! this is url used to make an order";
     }
+
+    public Void checkOrder(order){
+        if(isValid){
+            return orderType(order)
+        }
+        return null
+    }
 }
